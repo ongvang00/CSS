@@ -63,14 +63,14 @@ body{
     width: 100px;
     height: 100px;
     position: flex;
-    animation: slider 4s 1;
+    animation: slider 5s 1;
   
 
 }
 
 @keyframes slider{
     0%{
-        margin: left 100%;
+        margin-left: 100%;
     }
     30%{
 
