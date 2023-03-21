@@ -10,7 +10,7 @@ body{
     border: solid;
         border-color: green;
         border-radius: 25px;
-        width:fit-content
+        width:min-content
     margin: 25px;
     background-color:rgba(0, 128, 0, 0.8) /* Green background with 80% opacity */;
 
