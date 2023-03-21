@@ -1,0 +1,56 @@
+
+body{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image:url(https://dekornik.com/wp-content/uploads/2022/02/DEKO.TAP_.214-SIMPLE-subtle-flowers-green-50x280-1.jpg)
+}
+
+
+#quote1, #quote2, #quote3, #quote4{
+    border: solid;
+        border-color: green;
+        border-radius: 25px;
+        width:fit-content
+    margin: 25px;
+    background-color:rgba(0, 128, 0, 0.8) /* Green background with 80% opacity */;
+
+        
+}
+.container{
+    text-align: center;
+    position: absolute
+    top:20%;
+    left:50%;
+    transform: translate(-10%,-30%)
+    width: 100px;
+    height: 60px;
+}
+.container span{
+    color: darkgreen;
+    display: block ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.text1{
+    font-size: 21px;
+    font-weight: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+}
+@keyframes text {
+    0%{
+        color:dark green;
+        margin-bottom: 20px;
+    }
+    30%{
+        letter-spacing:15px;
+        margin-bottom: 20px;
+    }
+    85%{
+        letter-spacing:8px;
+        margin-bottom: 20px;
+    }
+    
+}
+
